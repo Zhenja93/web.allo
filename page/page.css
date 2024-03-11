@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.pages{
+    margin: 15px;
+    border: 2px solid #c2c2c2;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.allo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #8a8181;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #d4cccc;
+}
+
+.allo_img,
+.allo div {
+    flex: 0 0 22%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+}
+
+.allo_img img,
+.allo div img {
+    border: 1px solid #c2c2c2;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.allo_img :hover{
+    transform: scale(1.2);
+}
+
+.characteristics {
+    text-align: left;
+    padding: 30px;
+    display: flex;
+}
+.exposition{
+    text-align: right;
+}
