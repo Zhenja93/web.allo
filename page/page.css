@@ -48,7 +48,28 @@ h1 {
     text-align: left;
     padding: 30px;
     display: flex;
+    justify-content: center;
+    column-gap: 100px;
 }
+
+.categories,
 .exposition{
-    text-align: right;
+    padding: 10px;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    transition: 2s;
+
+}
+
+.categories:hover{
+    background-color: #d4d9d7;
+    box-shadow: 0px 10px 20px 5px rgba(143, 125, 125, 0.5);
+    border-radius: 15%;
+    transition: 0.8s;
+}
+.exposition:hover{
+    background-color: #d4d9d7;
+    box-shadow: 0px 10px 20px 5px rgba(143, 125, 125, 0.5);
+    border-radius: 15%;
+    transition: 0.8s;
 }
