@@ -1,10 +1,10 @@
 body {
-    display: flex;
+    display: flex; /*Робимо гнучкий контейнер*/
     flex-wrap: wrap; /* Якщо div не поміщається на екрані, тоді переносимо його.*/
     justify-content: space-around; /* Рівномірно розділяємо простір між елементами*/
     align-items: center; /*Вирівнюємо елементи по центру контейнера*/
-    min-height: 100vh;
-    margin: 50px;
+    min-height: 100vh; /* Займаємо мінімальну висоту екрану*/
+    margin: 50px; /* Робимо зовнішній відступ по всіх чотирьох осях*/
 }
 
 div {
@@ -13,6 +13,7 @@ div {
     border: 1px solid #c2c2c2; /* додаємо рамку навколо div */
     border-radius: 15px; /* Додаємо кутові радіуси для кращого вигляду */
     transition: transform 0.2s ease; /* Додаємо плавну анімацію для зміни масштабу при наведенні */
+    transition: 1.5s; /*Додаємо плавності блокам*/
 }
 
 a {
@@ -22,14 +23,14 @@ a {
 }
 
 img {
-    width: 100%;
-    height: auto;
+    width: 100%; /*Займаємо вся висоту контейнера*/
+    height: auto; /*Займаємо шириру контейнера згідно до заповнення*/
     border-radius: 15px; /* Додаємо кутові радіуси для кращого вигляду  */ 
 }
 
 h3 {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: Arial, sans-serif; /*Задаємо шрифт*/
+    text-align: center; /*Вирівнюємо текст по центру*/
 }
 
 p {
@@ -38,5 +39,7 @@ p {
 
 div:hover {
     transform: scale(1.1); /* Збільшуємо картинку при наведенні миші */
+    box-shadow: 0px 10px 20px 5px rgba(143, 125, 125, 0.5); /* Додаємо тінь навколо блоку*/
+    transition: 0.8s; /*Додаємо плавності блокам*/
 }
 
